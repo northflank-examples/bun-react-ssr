@@ -1,0 +1,101 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(#192338 0%, #131a2a 100%);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(29, 39, 63, 0.6);
+  padding: 40px;
+  border-radius: 2px;
+  border: 1px solid #334670;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+h2 {
+  color: #ebf1f7;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #c6d3e2;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.nav {
+  margin: 30px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: white;
+  background: #1d273f;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid #334670;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+ul {
+  color: #c6d3e2;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  color: #ffffff;
+}
+
+code {
+  background: rgba(51, 70, 112, 0.5);
+  color: #ebf1f7;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas,
+    "Courier New", monospace;
+}
+
+.docs-links {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #334670;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+
+.docs-links a {
+  color: #7a89a1;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.docs-links a:hover {
+  color: #c6d3e2;
+  text-decoration: underline;
+}
